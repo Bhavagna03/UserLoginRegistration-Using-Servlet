@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Registration</title>
+<style>
+body{
+   background:#0f172a;
+   height:100vh;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   font-family:Arial;
+}
+.card{
+   background:white;
+   padding:35px;
+   width:380px;
+   border-radius:15px;
+}
+input,button{
+   width:100%;
+   padding:12px;
+   margin-top:10px;
+}
+button{
+   background:#22c55e;
+   color:white;
+   border:none;
+}
+</style>
+</head>
+<body>
+<div class="card">
+<h2 align="center">📝 Register</h2>
+<form method="POST" action="register.do">
+<input name="username" placeholder="Username" required>
+<input type="password" name="password" placeholder="Password" required>
+<input name="email" placeholder="Email" required>
+<button>Register</button>
+</form>
+</div>
+</body>
+</html>

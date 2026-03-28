@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{background:#f4f8ff;font-family:Segoe UI;}
+.card{
+  background:white;
+  width:350px;
+  margin:80px auto;
+  padding:30px;
+  border-radius:15px;
+}
+input,button{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+}
+button{
+  background:#0b5ed7;
+  color:white;
+  border:none;
+}
+</style>
+</head>
+<body>
+<div class="card">
+<h2>Register User</h2>
+<form action="register.do" method="post">
+<input name="username" placeholder="Username" required>
+<input name="password" type="password" placeholder="Password" required>
+<input name="email" placeholder="Email" required>
+<button>Register</button>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Login</title>
+<style>
+body{
+   background:#1e293b;
+   height:100vh;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   font-family:Arial;
+}
+.card{
+   background:white;
+   padding:35px;
+   width:360px;
+   border-radius:15px;
+}
+input,button{
+   width:100%;
+   padding:12px;
+   margin-top:10px;
+}
+button{
+   background:#2563eb;
+   color:white;
+   border:none;
+}
+</style>
+</head>
+<body>
+<div class="card">
+<h2 align="center">🔑 Login</h2>
+<form method="POST" action="login.do">
+<input name="username" placeholder="Username" required>
+<input type="password" name="password" placeholder="Password" required>
+<button>Login</button>
+</form>
+</div>
+</body>
+</html>
